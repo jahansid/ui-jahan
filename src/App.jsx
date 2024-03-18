@@ -1,7 +1,9 @@
+import TiltCard from "./components/TiltCard";
+
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <main className="flex h-screen items-center justify-center bg-gray-900 font-sans">
+    <TiltCard  />
+  </main>
   )
 }
