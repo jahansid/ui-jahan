@@ -41,6 +41,7 @@ function TiltCard({
             {date}
           </p>
         </footer>
+        <div className=" pointer-events-none absolute inset-0 group-hover:bg-[radial-gradient(at_var(--x)_var(--y),rgba(198,191,250,0.3)_20%,transparent_70%)]" />
       </div>
     </div>
   );
