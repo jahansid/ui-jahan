@@ -9,6 +9,7 @@ function TiltCard({
   const boundingRef = useRef(null);
 
   return (
+    <div className="flex h-screen items-center justify-center bg-gray-900 font-sans">
     <div className="flex flex-col [perspective:800px]">
       <div
        onMouseLeave={() => (boundingRef.current = null)}
@@ -43,6 +44,7 @@ function TiltCard({
         </footer>
         <div className=" pointer-events-none absolute inset-0 group-hover:bg-[radial-gradient(at_var(--x)_var(--y),rgba(198,191,250,0.3)_20%,transparent_70%)]" />
       </div>
+    </div>
     </div>
   );
 }
