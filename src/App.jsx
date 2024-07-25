@@ -2,7 +2,8 @@
 // import NavTabs from "./components/NavTabs";
 // import TiltCard from "./components/TiltCard";
 
-import RevealText from "./components/RevealText";
+import { AnimatedTabSlider } from "./components/AnimatedTabSlider";
+// import RevealText from "./components/RevealText";
 
 export default function App() {
   return (
@@ -10,7 +11,8 @@ export default function App() {
     {/* <TiltCard  /> */}
     {/* <AuroraBackground /> */}
     {/* <NavTabs /> */}
-    <RevealText />
+    {/* <RevealText /> */}
+    <AnimatedTabSlider />
     
   </div>
   )
