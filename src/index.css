@@ -7,3 +7,12 @@
 *{box-sizing: border-box;
 margin: 0;
 padding: 0;}
+
+.mask {
+    mask-image: url(../public/mask.svg);
+    mask-repeat: no-repeat;
+    mask-size: 40px;
+    background: #ec4e39;
+    position: absolute;
+    cursor: default;
+}

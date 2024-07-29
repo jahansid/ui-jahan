@@ -3,7 +3,8 @@
 // import TiltCard from "./components/TiltCard";
 
 // import { AnimatedTabSlider } from "./components/AnimatedTabSlider";
-import HamburgerBar from "./components/HamburgerBar";
+import CursorMask from "./components/CursorMask";
+// import HamburgerBar from "./components/HamburgerBar";
 // import RevealText from "./components/RevealText";
 
 export default function App() {
@@ -14,7 +15,8 @@ export default function App() {
     {/* <NavTabs /> */}
     {/* <RevealText /> */}
     {/* <AnimatedTabSlider /> */}
-    <HamburgerBar />
+    {/* <HamburgerBar /> */}
+    <CursorMask />
     
   </div>
   )
