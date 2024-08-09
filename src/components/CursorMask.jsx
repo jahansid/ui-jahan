@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
@@ -22,7 +23,9 @@ function CursorMask() {
           onMouseLeave={() => {
             setIsHovered(false);
           }}
-          className={`w-4/5 leading-1 ${isHovered ? 'text-black' : 'text-[#afa18f]'}`}
+          className={`w-4/5 leading-1 ${
+            isHovered ? "text-black" : "text-[#afa18f]"
+          }`}
         >
           A visual designer - with skills that haven't been replaced by A.I
           (yet) - making good shit only if the paycheck is equally good.
@@ -40,23 +43,24 @@ function CursorMask() {
   );
 }
 
-const useMousePosition = () => {  
-    const [mousePosition, setMousePosition] = useState({ x: null, y: null });  
-  
-    const updateMousePosition = (e) => {  
-      setMousePosition({ x: e.clientX, y: e.clientY });  
-    };  
-  
-    useEffect(() => {  
-      window.addEventListener("mousemove", updateMousePosition);  
-      
-      // Cleanup function to remove the event listener  
-      return () => {  
-        window.removeEventListener("mousemove", updateMousePosition);  
-      };  
-    }, []);  
-  
-    return mousePosition;  
-  };  
+const useMousePosition = () => {
+  const [mousePosition, setMousePosition] = useState({ x: null, y: null });
+
+  const updateMousePosition = (e) => {
+    setMousePosition({ x: e.clientX, y: e.clientY });
+  };
+
+  useEffect(() => {
+    window.addEventListener("mousemove", updateMousePosition);
+
+    // Cleanup function to remove the event listener
+    return () => {
+      window.removeEventListener("mousemove", updateMousePosition);
+    };
+  }, []);
+
+  return mousePosition;
+};
 
 export default CursorMask;
+
