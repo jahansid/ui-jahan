@@ -4,7 +4,8 @@
 
 // import { AnimatedTabSlider } from "./components/AnimatedTabSlider";
 // import CursorMask from "./components/CursorMask";
-import LogoMarquee from "./components/LogoMarquee";
+import FAQsection from "./components/FAQsection";
+// import LogoMarquee from "./components/LogoMarquee";
 // import HamburgerBar from "./components/HamburgerBar";
 // import RevealText from "./components/RevealText";
 
@@ -18,7 +19,8 @@ export default function App() {
       {/* <AnimatedTabSlider /> */}
       {/* <HamburgerBar /> */}
       {/* <CursorMask /> */}
-      <LogoMarquee />
+      {/* <LogoMarquee /> */}
+      <FAQsection />
     </div>
   );
 }
