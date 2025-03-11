@@ -2,9 +2,11 @@
 // import NavTabs from "./components/NavTabs";
 // import TiltCard from "./components/TiltCard";
 
+import CardContent from "./components/CardContent";
+
 // import { AnimatedTabSlider } from "./components/AnimatedTabSlider";
 // import CursorMask from "./components/CursorMask";
-import ButtonGlow from "./components/ButtonGlow";
+// import ButtonGlow from "./components/ButtonGlow";
 // import FAQsection from "./components/FAQsection";
 // import LogoMarquee from "./components/LogoMarquee";
 // import HamburgerBar from "./components/HamburgerBar";
@@ -22,7 +24,8 @@ export default function App() {
       {/* <CursorMask /> */}
       {/* <LogoMarquee /> */}
       {/* <FAQsection /> */}
-      <ButtonGlow />
+      {/* <ButtonGlow /> */}
+      <CardContent/>
     </div>
   );
 }
